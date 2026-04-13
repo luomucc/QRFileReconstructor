@@ -85,3 +85,7 @@
 2026-04-13 09:16:59 | INFO | Exec: <CodeBlock name=git_push_script, version=1, lang=bash, path=blocks/git_push.sh> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
 2026-04-13 09:16:59 | INFO | Registered executor for bash: <aipyapp.exec.prun.BashExecutor object at 0x000002142C151C10> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
 2026-04-13 09:16:59 | INFO | Exec: ['bash', 'C:\\Users\\chenchao\\aipywork\\Ca1Voer9VsQPFVAJgvokz\\blocks\\git_push.sh'] | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'bash_executor'}
+2026-04-13 09:17:35 | INFO | Updated context tokens from LLM usage: 28648 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:17:35 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:17:35 | INFO | Exec: <CodeBlock name=git_push_py, version=1, lang=python, path=blocks/git_push.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:17:36 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'git_push_py'}
