@@ -89,3 +89,29 @@
 2026-04-13 09:17:35 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
 2026-04-13 09:17:35 | INFO | Exec: <CodeBlock name=git_push_py, version=1, lang=python, path=blocks/git_push.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
 2026-04-13 09:17:36 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'git_push_py'}
+2026-04-13 09:18:06 | INFO | Updated context tokens from LLM usage: 31830 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:18:06 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:18:06 | INFO | Exec: <CodeBlock name=git_push_py_fixed, version=1, lang=python, path=blocks/git_push_fixed.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:18:38 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'git_push_py_fixed'}
+2026-04-13 09:18:38 | INFO | Context compressed: 17->17 messages, 31830->31830 tokens | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:19:07 | INFO | Updated context tokens from LLM usage: 34646 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:19:07 | INFO | Added single message: +50 tokens, total: 34696, id: qMqUfwLEgwU | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:19:07 | INFO | Saved task state to file | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task', 'path': 'C:\\Users\\chenchao\\aipywork\\Ca1Voer9VsQPFVAJgvokz\\task.json'}
+2026-04-13 09:19:07 | INFO | Task auto saved | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:19:07 | INFO | Step done | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task', 'rounds': 4}
+2026-04-13 09:19:45 | INFO | Step has 4 rounds, implementing smart compact | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Will clean Round 0: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Will clean Round 1: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Preserving Round 2: SUCCESS: 1/1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Preserving Round 3: SUCCESS: 1/1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Will clean 4 messages from deletable rounds | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Executing Smart compact with 4 message IDs | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Deleted 4 messages by ID, saved 2910 tokens | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:19:45 | INFO | delete_messages_by_ids returned: (4, 2910) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Compact completed: 4 messages deleted | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Messages: 20 -> 16 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Tokens: 34696 -> 23526 (saved: 11170) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Execution records preserved: 4 rounds kept | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:19:45 | INFO | Step compact result: (4, 16, 11170, 23526) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:19:45 | INFO | Step compact completed: 4 messages cleaned | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:19:45 | INFO | Start task with features: ['aipy_call', 'exec_code'] | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
