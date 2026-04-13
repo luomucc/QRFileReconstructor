@@ -1,0 +1,87 @@
+2026-04-13 09:00:54 | INFO | Registered runtime for python: <aipyapp.aipy.runtime.CliPythonRuntime object at 0x000002142A7455B0> | {'src': 'block_executor', 'task_id': 'Ca1Voer9VsQPFVAJgvokz'}
+2026-04-13 09:00:54 | INFO | Registered 28 events for StdioDisplayPlugin | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'TypedEventBus'}
+2026-04-13 09:00:54 | INFO | New task created | {'src': 'taskmgr', 'task_id': 'Ca1Voer9VsQPFVAJgvokz'}
+2026-04-13 09:00:54 | INFO | Added single message: +3865 tokens, total: 3865, id: 9c1h0A_iMX0 | {'src': 'context_manager', 'task_id': 'Ca1Voer9VsQPFVAJgvokz'}
+2026-04-13 09:02:07 | INFO | Start task with features: ['aipy_call', 'exec_code'] | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:02:07 | INFO | Context compressed: 1->1 messages, 3865->3865 tokens | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:04:03 | INFO | Updated context tokens from LLM usage: 12047 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:04:03 | INFO | Added 9 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:04:03 | INFO | Exec: <CodeBlock name=test_simulation, version=1, lang=python, path=blocks/test_simulation.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:04:03 | INFO | Registered executor for python: <PythonExecutor> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:04:03 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'test_simulation'}
+2026-04-13 09:04:38 | INFO | Updated context tokens from LLM usage: 15008 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:04:38 | INFO | Added 5 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:04:38 | INFO | Added single message: +50 tokens, total: 15058, id: qMqUfwLEgwU | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:04:38 | INFO | Saved task state to file | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task', 'path': 'C:\\Users\\chenchao\\aipywork\\Ca1Voer9VsQPFVAJgvokz\\task.json'}
+2026-04-13 09:04:38 | INFO | Task auto saved | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:04:38 | INFO | Step done | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task', 'rounds': 2}
+2026-04-13 09:05:38 | INFO | Step has 2 rounds, implementing smart compact | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:05:38 | INFO | Preserving Round 0: SUCCESS: 1/1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:05:38 | INFO | Preserving Round 1: SUCCESS: 1/1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:05:38 | INFO | Will clean 0 messages from deletable rounds | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:05:38 | INFO | No messages need to be cleaned | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:05:38 | INFO | Execution records preserved: 2 rounds kept | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:05:38 | INFO | Step compact result: (0, 6, 0, 15058) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:05:38 | INFO | Start task with features: ['aipy_call', 'exec_code'] | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:07:21 | INFO | Updated context tokens from LLM usage: 18093 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:07:21 | INFO | Update block todo version to 2 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:07:21 | INFO | Added 5 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:07:21 | INFO | Exec: <CodeBlock name=compile_apk, version=1, lang=batch, path=blocks/compile_apk.bat> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:07:21 | WARNING | No executor found for batch | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:07:21 | INFO | Context compressed: 8->8 messages, 18093->18093 tokens | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:07:55 | INFO | Updated context tokens from LLM usage: 19435 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:07:55 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:07:55 | INFO | Exec: <CodeBlock name=compile_with_python, version=1, lang=python, path=blocks/compile_apk.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:07:55 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'compile_with_python'}
+2026-04-13 09:08:47 | INFO | Updated context tokens from LLM usage: 22456 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:08:47 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:08:47 | INFO | Exec: <CodeBlock name=compile_robust, version=1, lang=python, path=blocks/compile_apk_robust.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:08:47 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'compile_robust'}
+2026-04-13 09:09:06 | INFO | Updated context tokens from LLM usage: 24738 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:09:06 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:09:06 | INFO | Exec: <CodeBlock name=check_structure, version=1, lang=python, path=blocks/check_structure.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:09:06 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'check_structure'}
+2026-04-13 09:10:01 | INFO | Updated context tokens from LLM usage: 27072 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:10:01 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:10:01 | INFO | Exec: <CodeBlock name=direct_compile, version=1, lang=python, path=blocks/direct_compile.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:10:01 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'direct_compile'}
+2026-04-13 09:10:37 | INFO | Updated context tokens from LLM usage: 30184 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:10:37 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:10:37 | INFO | Exec: <CodeBlock name=check_gradle_error, version=1, lang=python, path=blocks/check_gradle_error.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:10:37 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'check_gradle_error'}
+2026-04-13 09:12:33 | INFO | Updated context tokens from LLM usage: 35392 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:12:33 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:12:33 | INFO | Exec: <CodeBlock name=python_qr_reconstructor, version=1, lang=python, path=blocks/qr_file_reconstructor_desktop.py> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:13:01 | INFO | Add module | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'BlockImporter', 'name': 'python_qr_reconstructor'}
+2026-04-13 09:13:01 | INFO | Context compressed: 20->20 messages, 35392->35392 tokens | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:14:23 | INFO | Updated context tokens from LLM usage: 41881 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:14:23 | INFO | Added 2 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:14:23 | INFO | Added single message: +50 tokens, total: 41931, id: qMqUfwLEgwU | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:14:23 | INFO | Saved task state to file | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task', 'path': 'C:\\Users\\chenchao\\aipywork\\Ca1Voer9VsQPFVAJgvokz\\task.json'}
+2026-04-13 09:14:23 | INFO | Task auto saved | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:14:23 | INFO | Step done | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task', 'rounds': 8}
+2026-04-13 09:16:48 | INFO | Step has 8 rounds, implementing smart compact | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean Round 0: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean Round 1: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean Round 2: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean Round 3: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean Round 4: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean Round 5: TOOL_FAILED: 1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Preserving Round 6: SUCCESS: 1/1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Preserving Round 7: SUCCESS: 1/1 tools | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Will clean 12 messages from deletable rounds | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Executing Smart compact with 12 message IDs | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Deleted 12 messages by ID, saved 13118 tokens | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:16:48 | INFO | delete_messages_by_ids returned: (12, 13118) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Compact completed: 12 messages deleted | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Messages: 23 -> 11 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Tokens: 41931 -> 20507 (saved: 21424) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Execution records preserved: 8 rounds kept | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'StepCleaner'}
+2026-04-13 09:16:48 | INFO | Step compact result: (12, 11, 21424, 20507) | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:16:48 | INFO | Step compact completed: 12 messages cleaned | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:16:48 | INFO | Start task with features: ['aipy_call', 'exec_code'] | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'task'}
+2026-04-13 09:16:59 | INFO | Updated context tokens from LLM usage: 26753 | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'context_manager'}
+2026-04-13 09:16:59 | INFO | Added 1 blocks | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'CodeBlocks'}
+2026-04-13 09:16:59 | INFO | Exec: <CodeBlock name=git_push_script, version=1, lang=bash, path=blocks/git_push.sh> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:16:59 | INFO | Registered executor for bash: <aipyapp.exec.prun.BashExecutor object at 0x000002142C151C10> | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'block_executor'}
+2026-04-13 09:16:59 | INFO | Exec: ['bash', 'C:\\Users\\chenchao\\aipywork\\Ca1Voer9VsQPFVAJgvokz\\blocks\\git_push.sh'] | {'task_id': 'Ca1Voer9VsQPFVAJgvokz', 'src': 'bash_executor'}

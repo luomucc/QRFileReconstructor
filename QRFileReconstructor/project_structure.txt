@@ -1,0 +1,21 @@
+QRFileReconstructor/
+├── app/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/com/example/qrfilereconstructor/
+│   │       │   ├── MainActivity.java          # 主界面：扫码按钮、状态显示、文件保存路径
+│   │       │   ├── QRScannerActivity.java     # 扫码界面：调用摄像头，处理扫描结果
+│   │       │   ├── FileReconstructor.java     # 核心逻辑：分片管理、拼接、解码、校验
+│   │       │   └── FileUtils.java             # 工具类：MD5 计算、文件保存
+│   │       ├── res/
+│   │       │   ├── layout/
+│   │       │   │   ├── activity_main.xml      # 主界面布局
+│   │       │   │   └── activity_scanner.xml   # 扫码界面布局 (含预览窗口)
+│   │       │   ├── values/
+│   │       │   │   ├── strings.xml            # 字符串资源
+│   │       │   │   └── colors.xml             # 颜色资源
+│   │       │   └── AndroidManifest.xml        # 权限声明 (相机、存储)
+│   │       └── build.gradle                   # 模块构建配置 (依赖 ZXing)
+│   └── build.gradle                           # 项目构建配置
+├── build.gradle                               # 根构建配置
+└── settings.gradle                            # 项目设置

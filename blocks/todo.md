@@ -1,0 +1,4 @@
+- [x] 资深架构师 夜辰：设计技术方案与目录结构
+- [x] 高级安卓工程师 石破天：编写 Android 核心源码 (MainActivity, Scanner, Reconstructor)
+- [x] 测试专家 柳如烟：Python 模拟分片数据生成与重组逻辑验证
+- [ ] 项目经理 AiPy：生成完整 Android Studio 项目并编译 APK
