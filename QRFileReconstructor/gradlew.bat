@@ -13,7 +13,7 @@
 @rem See the License for the specific language governing permissions and
 @rem limitations under the License.
 @rem
-@if "%DEBUG%" == "" @echo off
+@if "%DEBUG%" == "" @debug  off
 @rem ##########################################################################
 @rem
 @rem  Gradle startup script for Windows
@@ -59,9 +59,10 @@ set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 @rem End local scope for the variables with windows NT shell
 if "%ERRORLEVEL%"=="0" goto mainEnd
 :fail
-rem Set variable GRADLE_EXITCODE to the exit code of the java.exe
-set GRADLE_EXITCODE=1
-exit /b %GRADLE_EXITCODE%
+rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+rem having Gradle exit code print to stderr.
+if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
+exit /b 1
 :mainEnd
 if "%OS%"=="Windows_NT" endlocal
 :omega
